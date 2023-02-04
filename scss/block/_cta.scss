@@ -1,0 +1,23 @@
+.cta {
+  &__container {
+    display: flex;
+    max-width: 1480px;
+    height: 300px;
+    background-color: #495567;
+  }
+  &__title {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    padding-left: 160px;
+    width: 450px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #ffffff;
+  }
+
+  &__img {
+    margin-top: 122px;
+    margin-left: 50px;
+  }
+}

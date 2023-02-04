@@ -1,0 +1,44 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 34px;
+    margin-left: 169px;
+    margin-right: 58px;
+    margin-bottom: 34px;
+    cursor: pointer;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 35px;
+    list-style-type: none;
+  }
+  &__link {
+    margin-right: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  &__btn {
+    padding: 14px 39px;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    background-color: #fcb72b;
+    border: none;
+    cursor: pointer;
+  }
+  &__btn:hover {
+    background-color: #f2f2f2;
+    color: #fcb72b;
+    border: 3px solid #fcb72b;
+  }
+}

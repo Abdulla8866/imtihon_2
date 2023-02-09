@@ -19,6 +19,12 @@
     display: inline-block;
   }
 
+  &__line2 {
+    display: inline-block;
+    margin-top: 100px;
+    border: 2px solid red;
+  }
+
   &__text {
     display: inline-block;
     margin-left: 57px;

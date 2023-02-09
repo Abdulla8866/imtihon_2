@@ -415,6 +415,11 @@ template {
 .intro__line {
   display: inline-block;
 }
+.intro__line2 {
+  display: inline-block;
+  margin-top: 100px;
+  border: 2px solid red;
+}
 .intro__text {
   display: inline-block;
   margin-left: 57px;
@@ -506,7 +511,6 @@ template {
 }
 .benefits__img-two {
   margin-left: -355px;
-  margin-right: 200px;
   margin-bottom: 226px;
 }
 .benefits__title-two {
